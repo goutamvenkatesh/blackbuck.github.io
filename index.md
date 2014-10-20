@@ -10,7 +10,7 @@ share: true
 
 <div class="tile">
   <h2 class="post-title">Fast page loading</h2>
-  <p class="post-excerpt">Here the secret: your smartphone's plenty smart already, but the world's websites aren't! <em>Fastah</em> maximizes the top dollar you paid for your iPhone by optimizing the sites you browse on-the-fly. They look great and load fast on Safari or any other iOS browser.</p>
+  <p class="post-excerpt">Here's the secret: your smartphone is plenty smart already, but the world's websites aren't! <em>Fastah</em> maximizes the top dollar you paid for your iPhone by optimizing the sites you browse on-the-fly. They look great and load fast on Safari or any other iOS browser.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
