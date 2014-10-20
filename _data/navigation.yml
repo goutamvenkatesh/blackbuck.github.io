@@ -1,6 +1,11 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+- title: Getting Started
+  url: /hello/
+  excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
+  image: 400x250.gif
+
+- title: About
+  url: /about/
+  excerpt: "All about Fastah"
+  image: 400x250.gif

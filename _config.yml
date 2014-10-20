@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title:
-description:
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+title: Fastah 
+description: Fastah mobile app - the joyful mobile web
+logo: Fastah_FullIcon_v2.png# 120x120 px default image used for Twitter summary card
+teaser: Fastah_FullIcon_v2.png # 400x250 px default teaser image used in image archive grid
 locale:
-url:
+url: http://tycoon.local:4000
 
 # Jekyll configuration
 
@@ -21,14 +21,16 @@ gems:
 
 # Site owner
 owner:
-  name:
-  email:
-  twitter:
-  google:
-    ad-client: 
-    ad-slot: 
-  bio: 
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+web: http://blackbuck.mobi
+name: Siddharth Mathur
+email: smathur@blackbuck.mobi
+twitter: s8mathur
+google:
+  plus: +SiddharthMathur
+  ad-client: 
+  ad-slot: 
+bio: Blackbuck Computing - Purveyors of fine mobile-first software since 2014.
+avatar: bio-photo.jpg # 160x160 px image for author byline
 disqus-shortname:
 
 

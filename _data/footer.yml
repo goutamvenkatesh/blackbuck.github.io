@@ -1,4 +1,9 @@
 # Footer navigation links
+title:Home
+url:/
 
-- title:
-  url:
+title:Getting Started
+url:/hello/
+
+title:About
+url:/about/
