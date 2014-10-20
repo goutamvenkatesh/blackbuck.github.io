@@ -34,12 +34,15 @@
       -o-transform: translateX(100%);
       transform: translateX(100%);
     }
-    .form-inline {
-     display: -webkit-inline-box;
-     display: -moz-inline-box;
-     display: -ms-inline-box;
-     display: inline-box;
-     margin-bottom : 0;
+    @media (min-width: 768px) {
+      .form-inline {
+       display: -webkit-inline-box;
+       display: -moz-inline-box;
+       display: -ms-inline-box;
+       display: inline-box;
+       margin-bottom : 0;
+       vertical-align: middle;
+      }
     }
     </style>
 
