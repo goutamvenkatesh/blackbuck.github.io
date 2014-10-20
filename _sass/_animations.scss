@@ -28,3 +28,31 @@
 	@include animation-iteration-count(infinite);
 	@include animation-direction(alternate);
 }
+
+/* Taken from http://codepen.io/virajsoni/pen/uvHBD */
+.container-cute-bg-animation {
+	.dot {
+	width: 25px;
+	height: 25px;
+	margin: 0px;
+	border-radius: 0%;
+	display: inline-block;
+	float: left;
+	-webkit-transition: 0.8s;
+	}
+}
+
+.dot:hover {
+	-webkit-transform: scale(2);
+	-webkit-transition: none;
+}
+
+@for $i from 1 through 500 {
+.dot:nth-child(#{$i}) {
+		$red: random(256)-1;
+		$green: random(256)-1;
+		$blue: random(256)-1;
+		background-color: rgb($red, $green, $blue);
+	}
+}
+/* End Codepen.io code */

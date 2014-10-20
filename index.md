@@ -3,28 +3,29 @@ layout: home
 permalink: /
 image:
   feature: Helsinki_Waterfront.jpg
+share: true
 ---
 
 <div class="tiles">
 
 <div class="tile">
-  <h2 class="post-title">Built for Jekyll 2</h2>
-  <p class="post-excerpt">Takes advantage of native Sass support and data files to make customizing your site easier.</p>
+  <h2 class="post-title">Fast page loading</h2>
+  <p class="post-excerpt">Here the secret: your smartphone's plenty smart already, but the world's websites aren't! Fastah™ maximizes the top dollar you paid for your iPhone by optimizing the sites you browse on-the-fly. They look great and load fast on your Safari browser.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Content First</h2>
-  <p class="post-excerpt">Designed to put the focus on you and your writing. Headers, navigation, sidebars, and footers have been purposely deemphasized.</p>
+  <h2 class="post-title">Loves many languages</h2>
+  <p class="post-excerpt">If English is not the only language you speak, Fastah opens up wide new horizons by just-in-translations. Easy-to-use AND easy-to-dismiss. Switching languages on the web has never been easier. We love español! हिंदी मेरी जान!</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Customizable</h2>
-  <p class="post-excerpt">Packed with layouts and modules. Include Disqus comments, social sharing buttons, and table of contents on one or all pages.</p>
+  <h2 class="post-title">Keep your Safari</h2>
+  <p class="post-excerpt">Know and love Safari on your iPhone? We work _with_ it: optimizing the web sites you visit on our cloud servers and sending them down to Safari. Make your iPhone work hard AND smart! Don't both with yet another browser.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Extensible</h2>
-  <p class="post-excerpt">Compatible with popular libraries like <a href="http://bourbon.io">Bourbon</a>, <a href="http://neat.bourbon.io/">Neat</a>, and <a href="http://github.com/octopress/octopress">Octopress</a> to help build and deploy your site with ease.</p>
+  <h2 class="post-title">High tech</h2>
+  <p class="post-excerpt">The builders of Fastah have decades of mobile internet and smartphone software experience. And it all distills into a premium internet experience for you, when you are on the go. Try us!</p>
 </div><!-- /.tile -->
 
 </div><!-- /.tiles -->

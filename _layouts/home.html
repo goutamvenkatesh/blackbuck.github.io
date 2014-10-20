@@ -34,6 +34,13 @@
       -o-transform: translateX(100%);
       transform: translateX(100%);
     }
+    .form-inline {
+     display: -webkit-inline-box;
+     display: -moz-inline-box;
+     display: -ms-inline-box;
+     display: inline-box;
+     margin-bottom : 0;
+    }
     </style>
 
     <link rel="stylesheet" href="{{ site.url }}/css/main.css">
@@ -50,11 +57,14 @@
     {% include navigation-sliding.html %}
 
     {% if page.image.feature %}
-    <div class="page-lead" style="background-image:url({{ site.url }}/images/{{ page.image.feature }})">
+    <div class="page-lead container-cute-bg-animation" id="page-lead-with-bg-image" style="background-image:url({{ site.url }}/images/{{ page.image.feature }})">
       <div class="wrap page-lead-content">
         <h1>Fastah</h1>
-        <h2>The joyful mobile web</h2>
-        <a href="{{ site.url }}/getting-started/" class="btn-inverse">Start Using Skinny Bones</a> &nbsp; or &nbsp; <a href="https://github.com/mmistakes/skinny-bones-jekyll" class="btn-inverse">View on GitHub</a>
+        <h2>A fast, multi-lingual web for your iPhone and iPad</h2>
+        <form id="signup-list-form" role="form" class="form-inline">
+        <input type="email" name="userEmail" autocomplete = "on" required = "required" placeholder="email">
+        <input type="submit" value="Sign up!" class="btn-inverse" formaction="https://api.blackbuck.mobi/api/create">
+        </form>
       </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
     {% endif %}
@@ -75,13 +85,21 @@
           </div class="archive-wrap"><!-- /.archive-wrap -->
         </div><!-- /.wrap -->
       </div><!-- /#main -->
-
+      {% if page.share != false %}{% include share-this.html %}{% endif %}
       {% include footer.html %}
     </div>
-
     <script src="{{ site.url }}/js/vendor/jquery-1.9.1.min.js"></script>
     <script src="{{ site.url }}/js/main.js"></script>
-
+    <script type="text/javascript">
+      var fragment = document.createDocumentFragment();
+      for (var i = 0; i < 500; i ++) {
+        aDiv = document.createElement('div');
+        aDiv.className = 'dot';
+        fragment.appendChild(aDiv);
+      }
+      //var tlDiv = document.getElementById("page-lead-with-bg-image");
+      //tlDiv.insertBefore(fragment, tlDiv.firstChild);
+    </script>
   </body>
 
 </html>
