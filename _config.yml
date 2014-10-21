@@ -21,17 +21,17 @@ gems:
 
 # Site owner
 owner:
-web: http://blackbuck.mobi
-name: Siddharth Mathur
-email: smathur@blackbuck.mobi
-twitter: s8mathur
-google:
-  plus: +SiddharthMathur
-  ad-client: 
-  ad-slot: 
-bio: Blackbuck Computing - Purveyors of fine mobile-first software since 2014.
-avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname:
+    web: http://blackbuck.mobi
+    name: Siddharth Mathur
+    email: smathur@blackbuck.mobi
+    twitter: s8mathur
+    google:
+        plus: +SiddharthMathur
+        ad-client: 
+        ad-slot: 
+    bio: Blackbuck Computing - Purveyors of fine mobile-first software since 2014.
+    avatar: bio-photo.jpg # 160x160 px image for author byline
+    disqus-shortname:
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
