@@ -5,7 +5,7 @@ description: Fastah mobile app - the joyful mobile web
 logo: Fastah_FullIcon_v2.png# 120x120 px default image used for Twitter summary card
 teaser: Fastah_FullIcon_v2.png # 400x250 px default teaser image used in image archive grid
 locale:
-url: http://tycoon.local:4000
+url: http://fastah.blackbuck.mobi
 
 # Jekyll configuration
 
