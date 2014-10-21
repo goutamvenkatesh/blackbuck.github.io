@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: article
 title: "Internet on your phone: why we are just getting started"
-category: posts
+category: blog
 tags: [blog]
 image:
   feature: BridgeJourney-v2.jpg
+  teaser: BridgeJourney-v2.jpg
   credit: Lauren Serota and UC Irvine IMTFI
   creditlink: http://www.laurenserota.com
 comments: true

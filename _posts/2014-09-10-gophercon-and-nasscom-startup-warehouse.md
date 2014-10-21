@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: article
 title: "GopherCon and NASSCOM Startup Warehouse"
-categories: posts
+categories: blog
 excerpt: Go language conference is looking for good women speakers and Blackbuck Computing got selected to the NASSCOM Startup Warehouse!
 tags: [blog]
 image:
-  feature:
+  feature: 
+  teaser: gophercon160.png
 date: 2014-09-10T11:28:59+05:30
 comments: true
 share: true
