@@ -4,6 +4,7 @@ permalink: /
 image:
   feature: Helsinki_Waterfront.jpg
 share: true
+excerpt: Fastah - A faster, multi-lingual web for your iPhone.
 ---
 
 <div class="tiles">

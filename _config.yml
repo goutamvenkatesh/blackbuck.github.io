@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title: Fastah™
-description: Fastah mobile app - the joyful mobile web
+description: Fastah app - the joyful mobile web for your iPhone
 logo: Fastah_FullIcon_v2.png# 120x120 px default image used for Twitter summary card
 teaser: Fastah_FullIcon_v2.png # 400x250 px default teaser image used in image archive grid
 locale:
@@ -24,7 +24,7 @@ owner:
     web: http://blackbuck.mobi
     name: Siddharth Mathur
     email: tellme@blackbuck.mobi
-    twitter: s8mathur
+    twitter: blkbck
     google:
         plus: 101767478075357933060
         ad-client: 
