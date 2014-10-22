@@ -4,8 +4,8 @@ title: Fastah™
 description: Fastah app - the joyful mobile web for your iPhone
 logo: Fastah_FullIcon_v2.png# 120x120 px default image used for Twitter summary card
 teaser: Fastah_FullIcon_v2.png # 400x250 px default teaser image used in image archive grid
-locale:
-url: http://fastah.blackbuck.mobi
+locale: en_US
+url: //fastah.blackbuck.mobi
 
 # Jekyll configuration
 
@@ -31,7 +31,7 @@ owner:
         ad-slot: 
     bio: Blackbuck Computing - Purveyors of fine mobile-friendly software since 2014.
     avatar: bio-photo.jpg # 160x160 px image for author byline
-    disqus-shortname:
+    disqus-shortname: blackbuck
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
