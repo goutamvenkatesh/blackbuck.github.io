@@ -53,6 +53,14 @@
       <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Begin MailChimp Signup Form related includes -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+      /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+         We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <!-- End MailChimp Signup Form related includes -->
   </head>
 
   <body>
@@ -64,10 +72,18 @@
       <div class="wrap page-lead-content">
         <h1>Fastah</h1>
         <h2>A fast, multi-lingual web for your iPhone and iPad</h2>
-        <form id="signup-list-form" role="form" class="form-inline">
-        <input type="email" name="userEmail" autocomplete = "on" required = "required" placeholder="email">
-        <input type="submit" value="Sign up!" class="btn-inverse" formaction="https://api.blackbuck.mobi/api/create">
+        <!-- Start of qMailchimp form -->
+        <form action="//blackbuck.us3.list-manage.com/subscribe/post?u=f74d9174f85a21a209f5cc0b0&amp;id=74a4677316" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <input type="email" value="" name="email" class="form-inline" id="mce-EMAIL" placeholder="-->your-email@gmail.com<--" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -9000px;">
+            <input type="text" name="b_f74d9174f85a21a209f5cc0b0_74a4677316" tabindex="-1" value="">
+          </div>
+          <div class="clear">
+            <input type="submit" value="Notify me when you launch!" name="subscribe" id="mc-embedded-subscribe" class="btn-inverse">
+          </div>
         </form>
+        <!-- End of Mailchimp form -->
       </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
     {% endif %}
