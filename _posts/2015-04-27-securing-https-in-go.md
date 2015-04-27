@@ -2,11 +2,11 @@
 layout: article
 title: "The easy guide to securing HTTP + TLS with Go"
 categories: blog
-excerpt: The practical guide to HTTPS security with Go
+excerpt: The Go programming language: a practical guide to HTTPS security and Crypto
 tags: [GopherCon India, Blackbuck Computing, Fastah, Golang, Siddharth Mathur, Go programming language, Crypto, TLS, HTTPS, Excuse me your Crypto is showing]
 #image:
 # feature: 
-#  teaser: gophercon160.png
+teaser: Gopher_GoRequest_400x300.jpg
 date: 2015-04-27
 comments: true
 share: true
@@ -78,6 +78,6 @@ A word of caution: Before changing Go's defaults, please do read the [standard l
 
 Happy security!
 
-(_This topic was presented by the author at a lightening talk "Excuse me, your Crypto is showing!" during [GopherCon India 2015](http://www.gophercon.in)_)
+(_This topic was presented by the author at a lightening talk "Excuse me, your Crypto is showing!" during [GopherCon India 2015](http://www.gophercon.in). The shooting gopher image attributed to creator Wisi Mongkhonsrisawat via the [GoRequest project](https://github.com/parnurzeal/gorequest).)
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/HQAB6OQ2mVoGDY" width="512" height="400" frameborder="5" marginwidth="0" marginheight="0" scrolling="no" sandbox="allow-scripts allow-same-origin allow-popups" seamless="seamless"></iframe>
