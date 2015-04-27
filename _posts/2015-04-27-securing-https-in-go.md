@@ -78,6 +78,6 @@ A word of caution: Before changing Go's defaults, please do read the [standard l
 
 Happy security!
 
-(_This topic was presented by the author at a lightening talk "Excuse me, your Crypto is showing!" during [GopherCon India 2015](http://www.gophercon.in). The shooting gopher image attributed to creator Wisi Mongkhonsrisawat via the [GoRequest project](https://github.com/parnurzeal/gorequest).)
+(_This topic was presented by the author at a lightening talk "Excuse me, your Crypto is showing!" during [GopherCon India 2015](http://www.gophercon.in). The shooting gopher image attributed to creator Wisi Mongkhonsrisawat via the [GoRequest project](https://github.com/parnurzeal/gorequest)_.)
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/HQAB6OQ2mVoGDY" width="512" height="400" frameborder="5" marginwidth="0" marginheight="0" scrolling="no" sandbox="allow-scripts allow-same-origin allow-popups" seamless="seamless"></iframe>
