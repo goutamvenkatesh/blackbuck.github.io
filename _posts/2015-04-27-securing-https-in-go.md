@@ -2,7 +2,7 @@
 layout: article
 title: "The easy guide to securing HTTP + TLS with Go"
 categories: blog
-excerpt: The Go programming language: a practical guide to HTTPS security and Crypto
+excerpt: The Go programming language - a practical guide to HTTPS security and Crypto
 tags: [GopherCon India, Blackbuck Computing, Fastah, Golang, Siddharth Mathur, Go programming language, Crypto, TLS, HTTPS, Excuse me your Crypto is showing]
 image:
  feature: 
