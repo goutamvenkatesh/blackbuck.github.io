@@ -1,16 +1,17 @@
 ---
-layout: post
+layout: article
 title: "The easy guide to securing HTTP + TLS with Go"
-modified:
-categories: posts
-excerpt: Go language conference is looking for good women speakers and Blackbuck Computing got selected to the NASSCOM Startup Warehouse!
+categories: blog
+excerpt: The practical guide to HTTPS security with Go
 tags: [GopherCon India, Blackbuck Computing, Fastah, Golang, Siddharth Mathur, Go programming language, Crypto, TLS, HTTPS, Excuse me your Crypto is showing]
-#image: blackbuck-fastah-siddharth-mathur-gophercon-india.jpg
-#  feature:
-date: 2015-04-27T11:59:00+05:30
-comments: false
+#image:
+# feature: 
+#  teaser: gophercon160.png
+date: 2015-04-27
+comments: true
 share: true
 ---
+
 
 The [Go programming language](http://golang.org) makes it easy to write and deploy servers offering HTTPS ( HTTP + Transport Layer Security) to clients. The crypto package in Go's standard library is easy to use and well documented: it's an under-explored gem. Due to it's low-on-legacy implementation of modern standards and easy configurability, there is no reason to insert an Apache or Nginx server to terminate TLS connections. A Go application server can do it all including being the front-end. All without OpenSSL!
 
