@@ -35,9 +35,8 @@ Let's start with the right tool. In this article, we use [scanner at Qualys SSL 
 	<img src="/images/SSL-Labs-C-grade.png">
 </figure>
 
-## UNDERSTAND and FIX the security issues
-The first significant misconfiguration reported by the above scan is a POODLE attack vulnerability. 
-While this is a bit of a false positive, you can make the tool pass this test by explicitly configuring the HTTPS server to advertise use of vTLS 1.0 or higher via ```tls.Config.MinVersion```:
+## FIX the security issues
+The first significant misconfiguration reported by the above scan is the possibility of a POODLE attack. While Go doesn't support the older SSLv3 at all, you can still make the server do a smarter TLS handshake by explicitly configuring it to only advertise support of vTLS 1.0 or higher. This is done by setting ```tls.Config.MinVersion```:
 {% raw %}
 	// Make a server negotiate only TLS v1.0+ with clients
 	config := &tls.Config{MinVersion: tls.VersionTLS10}
