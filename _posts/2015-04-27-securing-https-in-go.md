@@ -8,10 +8,10 @@ image:
  feature: 
  teaser: Gopher_GoRequest_400x300.jpg
 date: 2015-04-27
+modified: 2015-04-28
 comments: true
 share: true
 ---
-
 
 The [Go programming language](http://golang.org) makes it easy to write and deploy servers offering HTTPS ( HTTP + Transport Layer Security) to clients. The crypto package in Go's standard library is easy to use and well documented: it's an under-explored gem. Due to it's low-on-legacy implementation of modern standards and easy configurability, there is no reason to insert an Apache or Nginx server to terminate TLS connections. A Go application server can do it all including being the front-end. All without OpenSSL!
 
@@ -70,14 +70,14 @@ Once you have fixed the issues flagged by the tool, an all-green report card awa
 	<img src="/images/SSL-Labs-A-grade.png">
 </figure>
 
-A word of caution: Before changing Go's defaults, please do read the [standard library documentation TLS](http://golang.org/pkg/crypto/tls/), and [Mozilla's guide to TLS and cipher suites](https://wiki.mozilla.org/Security/Server_Side_TLS). Additional factors to consider while tuning the HTTPS server are:
+A word of caution: Before changing Go's defaults, do read the [standard library documentation for TLS](http://golang.org/pkg/crypto/tls/), and [Mozilla's guide to TLS and cipher suites](https://wiki.mozilla.org/Security/Server_Side_TLS). Additional factors to consider while tuning the HTTPS server are:
 
  * network round-trips required to negotiate a TLS connection
- * encryption quality and CPU cost trade-off
- * legal implications if applicable. 
+ * encryption quality and CPU/battery cost trade-off
+ * legal implications if applicable.
 
 Happy security!
 
-(_This topic was presented by the author at a lightening talk "Excuse me, your Crypto is showing!" during [GopherCon India 2015](http://www.gophercon.in). The shooting gopher image attributed to creator Wisi Mongkhonsrisawat via the [GoRequest project](https://github.com/parnurzeal/gorequest)_.)
+(_This topic was presented by the author at a lightening talk "Excuse me, your Crypto is showing!" during [GopherCon India 2015](https://sourcegraph.com/blog/live/gopherconindia/111466342132). The shooting gopher image is attributed to creator Wisi Mongkhonsrisawat via the [GoRequest project](https://github.com/parnurzeal/gorequest)_.)
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/HQAB6OQ2mVoGDY" width="512" height="400" frameborder="5" marginwidth="0" marginheight="0" scrolling="no" sandbox="allow-scripts allow-same-origin allow-popups" seamless="seamless"></iframe>
