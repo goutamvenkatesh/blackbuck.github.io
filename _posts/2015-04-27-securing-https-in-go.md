@@ -44,9 +44,9 @@ The first significant misconfiguration reported by the above scan is the possibi
 	s.ListenAndServeTLS()
 {% endraw %}
 
-Next, is the yellow-coded warning about use of a weak cipher: RC4. You may fix this error by limited ciphers to a stronger set via ```tls.Config.CipherSuites```. Also notice the use of ```PreferServerCipherSuites``` member to force TLS negotiation to pick a result from the (presumably) stronger list of server-specified ciphers. 
+Next up is the yellow-coded warning about use of a weak cipher: RC4. You may fix this error by limiting ciphers to a stronger set via ```tls.Config.CipherSuites```. Also notice the use of ```PreferServerCipherSuites``` that forces the TLS negotiation to pick a result from the (presumably) stronger list of server-specified ciphers. 
 {% raw %}
-	// Work for iOS 6+ Safari, WP 8.x IE 11 and Android 4.4.2+
+	// Work for iOS 6+, WP 8.x, and Android 4.4.2+
 	config := &tls.Config{
 		MinVersion:               tls.VersionTLS12,
 		PreferServerCipherSuites: true,
