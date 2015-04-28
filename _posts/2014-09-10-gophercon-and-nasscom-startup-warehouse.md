@@ -3,7 +3,7 @@ layout: article
 title: "GopherCon and NASSCOM Startup Warehouse"
 categories: blog
 excerpt: Go language conference is looking for good women speakers and Blackbuck Computing got selected to the NASSCOM Startup Warehouse!
-tags: [blog]
+tags: [gophercon india, blackbuck computing, fastah, golang, siddharth mathur, go programming language, women, engineering]
 image:
   feature: 
   teaser: gophercon160.png

@@ -2,7 +2,7 @@
 layout: article
 title: "Internet on your phone: why we are just getting started"
 category: blog
-tags: [blog]
+tags: [mobility, society, values, blackbuck computing, fastah, big picture, siddharth mathur, mission ]
 image:
   feature: BridgeJourney-v2.jpg
   teaser: BridgeJourney-v2.jpg
