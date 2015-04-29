@@ -23,12 +23,13 @@ gems:
 owner:
     web: http://blackbuck.mobi
     name: Siddharth Mathur
-    email: tellme@blackbuck.mobi
-    twitter: blkbck
+    email: smathur@blackbuck.mobi
+    twitter: s8mathur
     google:
         plus: 101767478075357933060
         ad-client: 
         ad-slot: 
+        verify: 3K5EOOn8dznOk8W7ok4GkPatPeLD4D9I445mB_gJsf0
     bio: Blackbuck Computing - Purveyors of fine mobile-friendly software since 2014.
     avatar: bio-photo.jpg # 160x160 px image for author byline
 
