@@ -5,9 +5,9 @@ categories: blog
 excerpt: The Go programming language - a practical guide to HTTPS security and Crypto
 tags: [GopherCon India, Blackbuck Computing, Fastah, Golang, Siddharth Mathur, Go programming language, Crypto, TLS, HTTPS, Excuse me your Crypto is showing]
 image:
-# feature: dog_edited.jpg
-# credit: Maheima Kapur
-# creditlink: https://plus.google.com/+MaheimaKapur
+ feature: dog_edited2.jpg
+ credit: Maheima Kapur
+ creditlink: https://plus.google.com/+MaheimaKapur
  teaser: Gopher_GoRequest_400x300.jpg
 date: 2015-04-27
 modified: 2015-04-28
