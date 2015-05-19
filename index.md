@@ -4,8 +4,8 @@ permalink: /
 image:
   feature: Helsinki_Waterfront.jpg
 share: true
-title: Fastah™ - A smartphone internet accelerator for your iPhone.
-excerpt: Fastah™ - A smartphone internet accelerator for your iPhone.
+title: Fastah™ - A smartphone internet accelerator for your iPhone
+excerpt: Fastah™ - A smartphone internet accelerator for your iPhone
 ---
 
 <div class="tiles">
