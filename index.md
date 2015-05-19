@@ -4,20 +4,20 @@ permalink: /
 image:
   feature: Helsinki_Waterfront.jpg
 share: true
-title: Fastah - A faster, multi-lingual web for your iPhone.
-excerpt: Fastah - A faster, multi-lingual web for your iPhone.
+title: Fastah™ - A smartphone internet accelerator for your iPhone.
+excerpt: Fastah™ - A smartphone internet accelerator for your iPhone.
 ---
 
 <div class="tiles">
 
 <div class="tile">
   <h2 class="post-title">Fast page loading</h2>
-  <p class="post-excerpt">Here's the secret: your smartphone is plenty smart already, but the world's websites aren't! <em>Fastah</em> maximizes the top dollar you paid for your iPhone by optimizing the sites you browse on-the-fly. They look great and load fast on Safari or any other iOS browser.</p>
+  <p class="post-excerpt">Here's the secret: your smartphone is plenty smart already, but the world's websites aren't! Your wireless carrier even less so.<em>Fastah</em> maximizes the top dollar you paid for your iPhone by optimizing the sites you browse on-the-fly. They look great and load fast on Safari or any other iOS browser.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Loves many languages</h2>
-  <p class="post-excerpt">If English is not the only language you speak, <em>Fastah</em> opens up wide new horizons by just-in-translations. Easy-to-use AND easy-to-dismiss. Switching languages on the web has never been easier. We love español! हिंदी मेरी जान!</p>
+  <h2 class="post-title">Save on data costs</h2>
+  <p class="post-excerpt">Tired out maxing out your data plan limits? Fastah compresses your data and optimizes your images to help your budget last through the month.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
