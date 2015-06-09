@@ -4,11 +4,9 @@ title: "About"
 date: 2014-10-21T09:44:20-04:00
 excerpt: "This is the Fastah about page"
 image:
-  feature: BridgeJourney-v2.jpg
+  feature:
   teaser: 
   thumb:
-  credit: Lauren Serota and UC Irvine IMTFI
-  creditlink: http://www.laurenserota.com
 share: true
 ads: false
 ---
