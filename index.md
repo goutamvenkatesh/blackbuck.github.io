@@ -26,7 +26,7 @@ excerpt: Fastah™ - A smartphone internet accelerator for your iPhone
   <p class="post-excerpt">Do you overpay for your mobile data every month? Avoid blowing your data limits with Fastah's intelligent data controls, thereby saving money.</p>
 </div><!-- /.tile -->
 
-<div class="title">
+<div class="tile">
 <h2 class="post-title">Notifications</h2>
 <p class="post-excerpt">Is Instagram going to blow your data cap this month? Get notified in advance, and stay in control.</p>
 </div><!-- /.tile -->
