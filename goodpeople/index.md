@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Good people at Blackbuck Computing
 date: 28-September-2015
 modified:
