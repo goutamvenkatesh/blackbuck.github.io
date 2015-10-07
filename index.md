@@ -29,5 +29,6 @@ excerpt: Fastah™ - A smartphone internet accelerator for your iPhone
 <div class="title">
 <h2 class="post-title">Notifications</h2>
 <p class="post-excerpt">Is Instagram going to blow your data cap this month? Get notified in advance, and stay in control.</p>
+</div><!-- /.tile -->
 
 </div><!-- /.tiles -->
